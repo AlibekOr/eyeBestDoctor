@@ -1,0 +1,140 @@
+.secCon {
+    background-color: #03246b;
+
+    .secConT {
+        margin: 0 auto;
+        width: 1200px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .secTitle {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        position: relative;
+        top: 8%;
+        right: -3%;
+
+        .secH1 {
+            font-weight: 500;
+            color: white;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            font-size: 65px;
+            line-height: 75px;
+            position: relative;
+        }
+
+        .sec1_buttom {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 490px;
+            height: 150px;
+            position: relative;
+
+            .sec1_but_div {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                color: #ffff;
+
+                .sec1_span {
+                    font-size: 14px;
+                }
+
+                .sec1_but_h3 {
+                    font-size: 26px;
+                }
+            }
+
+            .sec1_but_img {
+                width: 200px;
+                height: 150px;
+            }
+        }
+    }
+
+    .secImgaes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+
+        .secUl {
+            width: 550px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-size: 20px;
+            color: #f3f9fd;
+            position: relative;
+            left: 5%;
+
+            .secULLi {
+                font-size: 50px;
+                line-height: 55px;
+                color: #9bbafc;
+            }
+        }
+    }
+
+    .secImIn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .logoSec1 {
+            width: 247px;
+            height: 300px;
+            object-fit: cover;
+            object-position: center center;
+            position: relative;
+            right: 5%;
+            top: -120px;
+        }
+
+        .lg1 {
+            width: 370px;
+            height: 460px;
+            object-fit: cover;
+            object-position: center center;
+            position: relative;
+            top: 40px;
+            right: -6%;
+            z-index: 99999;
+
+        }
+
+        .secImSpan {
+            padding: 10px 40px;
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            font-size: 17px;
+            line-height: 23px;
+            background-color: #0453ff;
+            color: white;
+            position: absolute;
+            z-index: 999999;
+            bottom: 20%;
+            right: 15%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .secImH1 {
+                font-size: 50px;
+            }
+        }
+
+    }
+}
