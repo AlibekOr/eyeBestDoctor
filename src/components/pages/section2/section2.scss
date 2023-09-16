@@ -1,3 +1,9 @@
+.sec2_block {
+    background-color: #dce5f7;
+    margin: 0;
+    padding: 20px 0;
+}
+
 .sec2_titile {
     margin-top: 100px;
     position: relative;
@@ -6,11 +12,14 @@
     grid-template-columns: 1.5fr 1fr;
     align-items: center;
     justify-content: space-between;
+    padding: 0 10px;
 
     .sec2_t {
         font-size: 50px;
         line-height: 55px;
         color: #03246b;
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400;
     }
 
     .sec2_ti {
@@ -21,5 +30,79 @@
         font-size: 17px;
         line-height: 23px;
         color: #1b2948;
+    }
+}
+
+.sec2 {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+
+    &__fotoInner {
+        font-size: 17px;
+        color: #1b2948;
+        width: 387px;
+        height: 435px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 20px;
+
+        &_img {
+            width: 357px;
+            height: 258px;
+        }
+
+        &__titile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Lexend', sans-serif;
+            font-weight: 400;
+        }
+
+        &__titile div:first-child {
+            font-size: 26px;
+            color: #03246b;
+        }
+
+        &__titile div:last-child {
+            font-size: 50px;
+            color: #BBD0FC;
+        }
+
+        & div:nth-child(3) {
+            color: #1b2948;
+            font-size: 15px;
+        }
+
+        & div:nth-child(4) * {
+            color: #0853F4;
+        }
+
+        & div:nth-child(4) {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            align-content: center;
+
+            .nav {
+                font-size: 17px;
+                font-family: 'Lexend', sans-serif;
+                font-weight: 400;
+                padding: 10px 0;
+
+                .icons {
+                    font-size: 14px;
+                }
+            }
+        }
+
     }
 }
