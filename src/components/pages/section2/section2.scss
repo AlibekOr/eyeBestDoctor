@@ -1,0 +1,25 @@
+.sec2_titile {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+
+    .sec2_t {
+        font-size: 50px;
+        line-height: 55px;
+        color: #03246b;
+    }
+
+    .sec2_ti {
+        color: #0853f4;
+    }
+
+    .sec2_s {
+        font-size: 17px;
+        line-height: 23px;
+        color: #1b2948;
+    }
+}
