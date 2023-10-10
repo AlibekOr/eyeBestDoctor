@@ -1,0 +1,105 @@
+.sect5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    &__left {
+        position: relative;
+
+        & img {
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+        }
+
+        &__div {
+            position: absolute;
+            background-color: #0853f4;
+            font-size: 17px;
+            color: #ffff;
+            padding: 25px;
+            border-radius: 50%;
+            height: 205px;
+            bottom: 5%;
+            right: 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        &__div div:nth-child(1) {
+            font-size: 65px;
+            font-weight: 500;
+            line-height: 75px;
+        }
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        &__top {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & p:first-child {
+                font-size: 50px;
+                line-height: 57px;
+                font-weight: 400;
+                color: #021b50;
+                font-family: 'Lexend', sans-serif;
+            }
+
+            & p:last-child {
+                font-size: 50px;
+                line-height: 57px;
+                font-weight: 500;
+                color: #0853f4;
+                font-family: 'Lexend', sans-serif;
+            }
+        }
+
+        &__buttom {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            &__div {
+                padding: 23px 50px 22px 25px;
+                background-color: #ffffff;
+
+                &__titile {
+                    display: flex;
+                    justify-content: space-between;
+                    cursor: pointer;
+
+                    & button {
+                        background-color: transparent;
+                        border: transparent;
+                        color: #0853f4;
+                        font-size: 22px;
+                        font-weight: 28px;
+
+                    }
+                }
+
+                & div:nth-child(2) {
+                    display: none;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+
+                & div:nth-child(2).active {
+                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}
