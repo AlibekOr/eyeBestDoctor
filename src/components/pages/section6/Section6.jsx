@@ -1,10 +1,12 @@
 import React from 'react'
 import { Carousel } from 'antd';
 import "./section6.scss"
+import Img2 from "../../../util/images/sec6_img1.jpg"
+
 const Section6 = () => {
     return (
         <div className='sec2_block'>
-            <div className="container ">
+            <div className="">
                 <div className="sect6">
                     <div className='sect6__titile'>
                         <div >Our Reviews</div>
@@ -13,25 +15,96 @@ const Section6 = () => {
                         </div>
                     </div>
                     <div className='carusel'>
-                        <Carousel className='carusel__inner' slidesPerRow={1} slidesToShow={3} dots autoplay>
+                        <Carousel className='carusel__inner' slidesToShow={3} slickGoTo={1} dots autoplay>
                             <div className='carusel__inner__div'>
-                                hello world 1
+                                <div>Very professional eye exam</div>
+                                <div>« The staff and doctors are friendly and knowledgeable they want you to be as healthy and comfortable »</div>
+                                <div >
+                                    <div> <img className='imges' src={Img2} alt="" /> </div>
+                                    <div className='spanInners'>
+                                        <span>Kristen L.</span>
+                                        <span> Google Reviewer</span>
+                                    </div>
+                                </div>
                             </div>
                             <div className='carusel__inner__div'>
-                                hello world 2
+                                <div>Very professional eye exam</div>
+                                <div>« The staff and doctors are friendly and knowledgeable they want you to be as healthy and comfortable »</div>
+                                <div >
+                                    <div> <img className='imges' src={Img2} alt="" /> </div>
+                                    <div className='spanInners'>
+                                        <span>Kristen L.</span>
+                                        <span> Google Reviewer</span>
+                                    </div>
+                                </div>
                             </div>
                             <div className='carusel__inner__div'>
-                                hello world 3
+                                <div>Very professional eye exam</div>
+                                <div>« The staff and doctors are friendly and knowledgeable they want you to be as healthy and comfortable »</div>
+                                <div >
+                                    <div> <img className='imges' src={Img2} alt="" /> </div>
+                                    <div className='spanInners'>
+                                        <span>Kristen L.</span>
+                                        <span> Google Reviewer</span>
+                                    </div>
+                                </div>
                             </div>
                             <div className='carusel__inner__div'>
-                                hello world   4
+                                <div>Very professional eye exam</div>
+                                <div>« The staff and doctors are friendly and knowledgeable they want you to be as healthy and comfortable »</div>
+                                <div >
+                                    <div> <img className='imges' src={Img2} alt="" /> </div>
+                                    <div className='spanInners'>
+                                        <span>Kristen L.</span>
+                                        <span> Google Reviewer</span>
+                                    </div>
+                                </div>
                             </div>
                             <div className='carusel__inner__div'>
-                                hello world 5
+                                <div>Very professional eye exam</div>
+                                <div>« The staff and doctors are friendly and knowledgeable they want you to be as healthy and comfortable »</div>
+                                <div >
+                                    <div> <img className='imges' src={Img2} alt="" /> </div>
+                                    <div className='spanInners'>
+                                        <span>Kristen L.</span>
+                                        <span> Google Reviewer</span>
+                                    </div>
+                                </div>
                             </div>
                             <div className='carusel__inner__div'>
-                                hello world 7
+                                <div>Very professional eye exam</div>
+                                <div>« The staff and doctors are friendly and knowledgeable they want you to be as healthy and comfortable »</div>
+                                <div >
+                                    <div> <img className='imges' src={Img2} alt="" /> </div>
+                                    <div className='spanInners'>
+                                        <span>Kristen L.</span>
+                                        <span> Google Reviewer</span>
+                                    </div>
+                                </div>
                             </div>
+                            <div className='carusel__inner__div'>
+                                <div>Very professional eye exam</div>
+                                <div>« The staff and doctors are friendly and knowledgeable they want you to be as healthy and comfortable »</div>
+                                <div >
+                                    <div> <img className='imges' src={Img2} alt="" /> </div>
+                                    <div className='spanInners'>
+                                        <span>Kristen L.</span>
+                                        <span> Google Reviewer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='carusel__inner__div'>
+                                <div>Very professional eye exam</div>
+                                <div>« The staff and doctors are friendly and knowledgeable they want you to be as healthy and comfortable »</div>
+                                <div >
+                                    <div> <img className='imges' src={Img2} alt="" /> </div>
+                                    <div className='spanInners'>
+                                        <span>Kristen L.</span>
+                                        <span> Google Reviewer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </Carousel>
                     </div>
                 </div>

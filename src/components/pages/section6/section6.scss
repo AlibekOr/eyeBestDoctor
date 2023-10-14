@@ -3,13 +3,14 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    width: 1300px;
+    margin: 0 auto;
 
     &__titile {
         display: flex;
         flex-direction: column;
-        width: 500px;
-
-        gap: 40px;
+        width: 400px;
+        gap: 30px;
 
         & div:nth-child(1) {
             color: #021B50;
@@ -25,22 +26,88 @@
     }
 
     .carusel {
-        display: flex;
-        align-items: center;
-
         &__inner {
             display: flex;
             flex-direction: row;
-            gap: 50px;
-            width: 700px;
-            border: 1px solid black;
+            width: 900px;
+            height: 300px;
 
-            &__div {
-                border: 1px solid black;
-                height: 200px;
-                width: 350px;
+        }
 
+        .ant-carousel {
+            margin-left: 10px;
+
+
+            .slick-track {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+                .slick-slide {
+                    display: flex;
+
+                    .carusel__inner__div {
+                        padding: 30px 30px 30px;
+                        background-color: #ffff;
+                    }
+
+                    .carusel__inner__div div:first-child {
+                        margin-bottom: 15px;
+                        font-size: 17px;
+                        color: #0853f4;
+                        font-family: 'Lexend', sans-serif;
+
+                    }
+
+                    .carusel__inner__div div:nth-child(2) {
+                        font-size: 15px;
+                        font-family: "Montserrat", sans-serif;
+                    }
+
+                    .carusel__inner__div div:nth-child(3) {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+
+                        .spanInners {
+                            display: flex;
+                            align-items: start;
+                            flex-direction: column;
+                        }
+
+                        & div:first-child {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+
+                    .carusel__inner__div div:last-child {
+                        margin-top: 5px;
+                    }
+
+
+                }
             }
+        }
+    }
+
+    .imges {
+        transform: translateY(8px);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .slick-dots {
+        transform: translateY(10px);
+
+        li button {
+            background-color: #012a81;
+        }
+
+        .slick-active button {
+            background: red;
         }
     }
 }
